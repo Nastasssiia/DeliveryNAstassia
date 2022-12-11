@@ -1,0 +1,36 @@
+@media ( max-width: 1200px  )
+    .edge
+        &__benefits
+            grid-template-columns: repeat(2,408px)
+            column-gap: 40px
+            &-item
+                grid-template-columns: 62px 336px
+
+
+@media ( max-width: 992px  )
+    .edge
+        &__benefits
+            grid-template-columns: repeat(2,320px)
+            column-gap: 10px
+            &-item
+                grid-template-columns: 62px 253px
+                column-gap: 5px
+            &-title 
+                font-size: 15px
+
+
+@media ( max-width: 767px  )
+    .edge
+        &__benefits
+            grid-template-columns: 320px
+
+@media ( max-width: 575px  )
+    .edge
+        &__benefits
+            margin-top: 30px
+            grid-template-columns: 280px
+            &-item
+                grid-template-columns: 62px 213px
+                column-gap: 5px
+            &-descr
+                line-height: 20px

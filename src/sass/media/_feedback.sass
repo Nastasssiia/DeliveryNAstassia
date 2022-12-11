@@ -1,0 +1,46 @@
+@media ( max-width: 1200px  )
+    .feedback
+        &__descr
+            font-size: 19px
+    
+@media ( max-width: 992px  )
+    .slick-dots
+        display: flex
+        justify-content: center
+        
+        li
+            margin: 20px 20px
+            list-style: none
+            button  
+                font-size: 0
+                width: 20px
+                height: 20px
+                border-radius: 100%
+                background-color: $main-color
+                border: none 
+                outline: none
+        .slick-active 
+            button
+                background-color: #25333c
+            
+        
+
+@media ( max-width: 767px  )
+    .feedback
+        &__carousel
+            width: 500px
+            &-item 
+                width: 500px
+        
+
+@media ( max-width: 575px  )
+    .feedback
+        padding-bottom: 30px
+        &__descr
+            width: 300px
+            font-size: 14px
+            margin: 22px auto
+        &__carousel
+            width: 300px
+            &-item 
+                width: 300px

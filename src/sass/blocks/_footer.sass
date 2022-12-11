@@ -1,0 +1,94 @@
+footer
+    height: 220px
+    background-color: #25333c
+    padding: 28px 0
+    .footer
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &__logo
+            display: flex
+            width: 520px
+            height: 71px
+            justify-content: space-around
+            align-items: center
+            &-icon
+                img
+                    width: 68px
+                    height: 71px
+            &-descr
+                font-size: 16px
+                line-height: 20px
+                font-weight: 700
+                color: white
+        &__contacts
+            width: 350px    
+            height: 45px
+            display: flex
+            justify-content: space-between
+            
+            &-item
+                text-align: right
+        &__question
+            color: white
+            font-size: 14px
+            line-height: 24px
+            font-weight: 300
+        
+        &__phone
+            color: white
+            font-size: 19px
+            line-height: 24px
+            font-weight: 700
+            transition-duration: .5s
+            &:hover
+                color: $main-color
+
+        &__descr
+            display: flex
+            flex-direction: column 
+            align-items: center 
+            margin-top: 22px
+    
+        &__btn
+            font-size: 12px
+            line-height: 22px
+            font-weight: 400
+            width: 160px
+            height: 45px
+
+        &__divider
+            height: 1px
+            width: 100%
+            background-color: rgba(255,255 ,255, 0.6 )
+            margin: 28px auto
+        &__bottom
+            height: 52px
+            display: flex
+            justify-content: space-between
+            align-items: start
+        &__copy
+            font-size: 13px
+            line-height: 17px
+            font-weight: 300
+            color: rgba(255,255 ,255, 0.6 )
+        &__policy
+            display: block
+            color: rgba(255,255 ,255, 0.6 )
+            font-size: 14px
+            font-weight: 400
+            transition-duration: .5s
+            &:hover
+                color: $main-color
+        &__creature
+            display: flex
+            justify-content: space-between
+            width: 158px   
+            align-items: start
+            color: rgba(255,255 ,255, 0.6 )
+            font-size: 14px
+            font-weight: 400
+            &-icon 
+                opacity: 0.6
+        

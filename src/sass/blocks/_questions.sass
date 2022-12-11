@@ -1,0 +1,100 @@
+.questions
+    position: relative
+    min-height: 438px
+    background-image: linear-gradient(to right, rgba(94,83,115.1, .4) 10%, rgba(236,232,157.1 ,.4) 80%), url('../img/bg/question_bg.png')
+    background-position: center
+    background-size: cover
+    padding: 62px 0
+    &__item
+        width: 896px
+        min-height: 297px
+        margin: 0 auto 
+    &__descr
+        height: 68px
+        background: #25333C
+        text-align: center
+        color: white
+        text-transform: uppercase
+        &-title 
+            font-size: 19px
+            padding-top: 10px
+            font-weight: 700  
+            
+        &-subtitle
+            font-size: 14px
+            font-weight: 400
+    &__form
+        background: rgba(255,255 ,255, 0.7 )
+        height: 229px
+        padding: 17px 0 25px 0
+        
+        
+        
+        
+    &__input
+        position: relative
+        display: grid
+        grid-template-columns: repeat(3, 270px)
+        column-gap:  4px
+        grid-template-rows: 47px 73px 55px
+        row-gap: 10px
+        justify-content: center
+        input, textarea
+            width: 100%
+            height: 100%
+            border: 1px solid rgba(0,0,0,.2)
+            border-radius: 30px
+            font-size: 13px
+            line-height: 24px
+            font-weight: 300
+            color: #101010
+            padding-right: 15px
+            padding-left: 15px
+            outline: 0
+        input.error 
+            border: 1px solid red
+        label.error 
+            color: red
+            display: block
+            position: absolute
+            height: 18px
+            padding: 0 8px 0 8px
+            font-size: 12px
+            top: -17px
+            
+            
+    &__textarea
+        grid-column: 1/4
+        textarea
+            border-radius: 10px
+            padding-top: 15px
+    &__triggers
+        grid-column: 2/3
+        display: flex
+        justify-content: center
+    &__btn 
+        width: 180px
+        height: 45px
+        font-size: 12px
+        line-height: 22px
+        font-weight: 400
+        margin-top: 10px
+.label
+    display: block
+    position: absolute
+    height: 18px
+    padding: 0 8px 0 8px
+    font-size: 12px
+    background-color: #fff
+    margin-bottom: 0
+    top: -9px
+    left: 12px
+        
+    
+        
+            
+
+            
+        
+            
+            

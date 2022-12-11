@@ -1,0 +1,280 @@
+.price
+    min-height: 670px
+    margin-bottom: 78px
+
+    &__underline
+        width: 148px
+        height: 1px
+        background-color: $main-color
+        margin: 0 auto 
+        margin-top: 20px
+    &__descr 
+        font-size: 21px
+        line-height: 24px
+        font-weight: 300
+        color: #2e2e2e
+        width: 719px
+        height: 49px
+        text-align: center
+        margin: 0 auto
+        margin-top: 19px
+
+    
+    &__title
+        font-size: 26px
+        line-height: 23px
+        font-weight: 700
+        text-transform: uppercase
+        color: #2e2e2e
+    &__tabs
+        margin-top: 70px
+        list-style-type: none
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 0
+        padding-left: 0
+    &__tab
+        width: 222px
+        height: 52px
+        background: rgba(0, 0, 0, 0.0001)
+        border: 2px solid #D0D0D0
+        font-weight: 400
+        font-size: 18px
+        text-transform: uppercase
+        color: #6B6B6B
+        text-align: center
+        line-height: 48px
+        transform: skewX(-25deg)
+        margin: 0 5px 
+        cursor: pointer 
+        transition: 0.5s all
+        &:hover
+            box-shadow: 3px 3px 20px $main-color
+            border: none
+        div
+            transform: skewX(25deg)
+        &_active
+            background-color: $main-color
+            color: #fff 
+            border: none
+    
+    &__content
+        margin-top: 60px
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap 
+        
+        
+
+
+
+    &__item
+        width: 267px
+        min-height: 357px
+        border: 1px solid #e9e9e9
+        overflow: hidden
+        margin-bottom: 20px
+        margin-right: 5px
+        margin-left: 5px
+    
+    &__img
+        display: block
+        margin: 0 auto
+        margin-top: 9px
+    &__subtitle
+        font-size: 14px
+        line-height: 23px
+        font-weight: 400
+        text-transform: uppercase
+        margin-top: 15px
+        text-align: center
+    &__cost
+        font-size: 28px
+        line-height: 30px
+        color: $main-color
+        text-align: center
+        &-descr
+            width: 250px
+            display: block
+            margin: 0 auto
+            margin-top: 15px
+            font-size: 14px
+            line-height: 20px
+            font-weight: 300
+            color: #2e2e2e  
+            text-align: center
+            padding-left: 5px
+            padding-right: 5px
+  
+    &__btn
+        display: block
+        margin: 0 auto
+        margin-top: 20px
+        
+    &__link, &__linkback
+        display: block
+        padding-top: 10px
+        width: 160px
+        height: 45px 
+        text-align: center
+        color: white
+        margin: 0 auto
+        &:hover
+            color: white
+    
+        
+
+    &__delivery
+        display: flex
+        width: calc(200% + 40px)
+       
+    &__main
+        width: 50%
+        margin-right: 0px
+        transform: translateX(-100%)
+        transition: 0.5s all
+        &_active
+            transform: translateX(0%)
+            margin-right: 20px
+    &__list
+        position: relative
+        width: 52%
+        transform: translateX(0%)
+        transition: 0.5s all
+        margin-bottom: 0
+        list-style-type: none
+        &_active
+            transform: translateX(-100%)
+            
+            margin-left: 0px
+        &-text
+            display: block
+            width: 242px
+            height: 61px
+            font-size: 14px
+            line-height: 20px
+            font-weight: 300
+            color: #2e2e2e
+            margin: 0 auto
+            margin-top: 40px
+            margin-bottom: 20px
+            text-align: center
+        &-title
+            font-size: 16px
+            line-height: 23px
+            font-weight: 700
+            text-transform: uppercase
+            color: white
+            text-align: center
+            padding-top: 20px
+            height: 61px    
+            background-color: #25333c
+    &__consult
+        &-title
+            display: block
+            margin: 0 auto
+            font-size: 28px
+            line-height: 23px
+            font-weight: 400
+            color: #3a3a3a
+            text-align: center
+            margin-top: 55px
+    &__round
+        
+        width: 122px
+        height: 102px
+        background-color: white
+        position: absolute
+        right: 0
+        left: 0
+        transform: translateY(-50px)
+        margin: 0 auto
+        z-index: 3
+        
+        
+        &-item 
+            
+            width: 102px
+            height: 102px
+            border-radius:  50%
+            background-color: transparent
+            border-width: 1px
+            border-color: $main-color
+            border-style: solid
+            margin: 0 auto
+            
+        
+        
+        &-icon 
+            display: block
+            margin: 0 auto
+            transform: translateY(30%)
+
+    
+    &__form
+        position: relative
+        border: 1px solid rgba(0,0,0,0.2)
+        width: 1140px
+        height: 166px
+        margin: 0 auto
+        margin-top: 80px
+        z-index: 2
+    
+    &__input
+        display: flex
+        width: 820px
+        margin: 0 auto 
+        margin-top: 70px
+        
+        input.error 
+            border: 1px solid red
+
+       
+      
+        &-item
+            padding-right: 5px
+            
+            
+            &:last-child
+                padding-right: 0
+
+
+            input
+                width: 270px    
+                height: 47px
+                background-color: white
+                border: 1px solid rgba(0,0,0,0.2) 
+                border-radius: 30px
+                font-size: 13px
+                line-height: 24px
+                font-weight: 300
+                color: #101010
+                padding-right: 15px
+                padding-left: 15px
+                outline: none
+                transition-duration: .5s
+                
+    
+                        
+    &__triggers
+        margin: 0 auto
+        margin-top: 20px
+        width: 200px
+        height: 45px
+        background-color: white
+        
+        
+    &__btn  
+        
+        width: 180px
+        height: 45px   
+        font-size: 12px
+        line-height: 22px
+        font-weight: 400   
+        
+        
+             
+
+            
+            

@@ -1,0 +1,40 @@
+@media ( max-width: 992px  )
+    .questions
+        &__item
+            width: 700px
+        &__input
+            grid-template-columns: repeat(3,220px)
+
+@media ( max-width: 767px  )
+    .questions__input label.error
+        font-size: 10px
+    .questions
+        &__item
+            width: 540px
+        &__input
+            grid-template-columns: repeat(3,170px)
+
+@media ( max-width: 575px  )
+    .questions__input label.error
+        position: relative
+        top: 0
+    
+    .questions
+        &__form
+            height: 400px 
+        &__item
+            width: 300px
+            padding-bottom: 20px
+        &__input
+            
+            grid-template-columns: 210px
+            grid-template-rows: repeat(5,50px)
+            
+            &-item 
+                grid-column: 1/2
+                margin-bottom: 10px
+        &__textarea
+            grid-column: 1/2
+            grid-row: 4/7
+        &__triggers
+            grid-column: 1/2
